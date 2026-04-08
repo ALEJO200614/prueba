@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color:aliceblue
+}
+
+h3{
+    color:aliceblue
+}
+
+p{
+    color: antiquewhite;
+}
+
+body{
+    background:black;
+    margin:0;
+}
+
+.derecha{
+width:100%;
+  max-width:350px;
+  height:250px;
+  object-fit:cover;
+  border-radius:10px;
+  float: left;
+
+}
+
+.imagenes{
+    display:flex;
+    gap:20px;          /* espacio entre fotos */
+    padding:40px;
+}
+
+/* estilo de cada imagen */
+.derecha {
+    width: 550px;
+    height: 450px;
+    object-fit:cover;
+    border-radius:102px;
+}
