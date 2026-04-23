@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title> D_Aleja</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+  <canvas class="petals-bg" id="petals"></canvas>
+  <div class="hero-content">
+    <p class="tagline">Para alguien especial</p>
+    <h1 class="hero-title">El amor<br>es <em>eterno</em></h1>
+    <p class="hero-subtitle">Cada momento contigo es un poema escrito en el corazón, una melodía que nunca termina.</p>
+    <div class="heart-divider">
+      <span></span>
+      <div class="heart-icon">♥</div>
+      <span></span>
+    </div>
+    <button class="cta-btn" onclick="scrollTo({top: window.innerHeight, behavior:'smooth'})">Descubrir más</button>
+  </div>
+</div>
+
+<div class="section">
+  <p class="section-label">Razones para amarte</p>
+  <h2 class="section-title">Lo que hace <em>especial</em><br>cada instante</h2>
+  <div class="messages-grid">
+    <div class="msg-card"><div class="msg-number">01</div><strong>Tu sonrisa</strong><p>Es la primera cosa que busco cada mañana y lo último que recuerdo antes de dormir.</p></div>
+    <div class="msg-card"><div class="msg-number">02</div><strong>Tu voz</strong><p>Como música que calma tormentas, me guía de regreso a casa sin importar cuán perdido estuviese.</p></div>
+    <div class="msg-card"><div class="msg-number">03</div><strong>Tu presencia</strong><p>El mundo se vuelve más brillante, más cálido y más lleno de sentido cuando estás cerca.</p></div>
+    <div class="msg-card"><div class="msg-number">04</div><strong>Tu esencia</strong><p>Esa mezcla única de valentía, ternura y luz que no existe en ningún otro lugar del universo.</p></div>
+    <div class="msg-card"><div class="msg-number">05</div><strong>Tus ojos</strong><p>En ellos encuentro el hogar que siempre busqué, una profundidad que me fascina sin cesar.</p></div>
+    <div class="msg-card"><div class="msg-number">06</div><strong>Tu amor</strong><p>El regalo más puro que la vida me ha dado. Lo atesoro cada día con el alma entera.</p></div>
+  </div>
+</div>
+
+<div class="section" style="padding-top: 0;">
+  <div class="quote-section">
+    <p class="quote-text">«Amar no es mirarse el uno al otro; es mirar juntos en la misma dirección.»</p>
+    <p class="quote-author">— Antoine de Saint-Exupéry</p>
+  </div>
+</div>
+
+<div class="countdown-section">
+  <p class="section-label">Nuestro tiempo juntos</p>
+  <h2 class="section-title" style="font-size: 2rem;">Cada segundo <em>vale</em></h2>
+  <div class="countdown-grid">
+    <div class="count-item"><span class="count-num" id="c-days">0</span><span class="count-label">Días</span></div>
+    <div class="count-item"><span class="count-num" id="c-hours">0</span><span class="count-label">Horas</span></div>
+    <div class="count-item"><span class="count-num" id="c-mins">0</span><span class="count-label">Minutos</span></div>
+    <div class="count-item"><span class="count-num" id="c-secs">0</span><span class="count-label">Segundos</span></div>
+  </div>
+</div>
+
+<div class="letter-section">
+  <p class="section-label">Carta de amor</p>
+  <div class="letter-box">
+    <p class="letter-body">
+      Mi amor,<br><br>
+      Hay palabras que el idioma no ha inventado aún para describir lo que siento cuando pienso en ti.
+      Pero lo intento de todas formas, porque mereces que alguien lo intente.<br><br>
+      Eres la razón por la que me alegra despertar, la persona a quien quiero contarle todas las cosas
+      pequeñas e insignificantes del día. Eres mi calma y mi aventura al mismo tiempo.<br><br>
+      Hoy y siempre, te elijo.
+    </p>
+    <p class="letter-signature">Con todo mi amor ♥</p>
+  </div>
+</div>
+
+<footer>hecho con amor &nbsp;♥&nbsp; para ti</footer>
+
+<div class="floating-hearts">
+  <button class="float-btn" id="heartBtn">♥</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
